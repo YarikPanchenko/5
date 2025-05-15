@@ -2,9 +2,9 @@ from telethon import TelegramClient, events
 import asyncio
 
 # Замените на свои данные
-api_id = '21327193'  # Ваш API ID
-api_hash = '550c29c62e5409f95a8877bd8d386466'  # Ваш API HASH
-user_username = 'evrechonok'  # Юзернейм вашего бота (без @)
+api_id = ''  # Ваш API ID
+api_hash = ''  # Ваш API HASH
+user_username = ''  # Юзернейм вашего бота (без @)
 
 # Создаём клиент
 client = TelegramClient('session_name', api_id, api_hash)
